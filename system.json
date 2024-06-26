@@ -1,12 +1,9 @@
 {
     "id": "cavalry-playtest-fvtt",
-    "name": "CavalryFVTT",
     "title": "CavalryFVTT",
     "description": "LITTERALY NOT A WH40K!!!1!!11!!",
     "author": "Hay4",
     "version": "0.4.1",
-    "minimumCoreVersion": "12.327",
-    "maximumCore": "12.327",
     "esmodules": [
         "CavalryFVTT.js"
     ],
