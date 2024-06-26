@@ -1,0 +1,25 @@
+{
+    "id": "cavalryfvtt",
+    "name": "CavalryFVTT",
+    "title": "CavalryFVTT",
+    "description": "LITTERALY NOT A WH40K!!!1!!11!!",
+    "author": "Hay4",
+    "version": "0.4.1",
+    "minimumCoreVersion": "12.327",
+    "maximumCore": "12.327",
+    "esmodules": [
+        "CavalryFVTT.js"
+    ],
+    "styles": [
+        "CavalryFVTT.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "initative": "@protection",
+    "download": "https://www.dropbox.com/scl/fi/y0uqb3thfajhfmz14qt3q/CavalryFVTT-master.zip?rlkey=yvja2jbqlo6yprsh9gozw8wkd&st=4rsb6605&dl=1",
+    "url": "https://github.com/HABOJI04b/CavalryFVTT" 
+}

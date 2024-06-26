@@ -1,0 +1,167 @@
+{
+    "Actor": {
+        "types": [
+            "spectre",
+            "cataphract",
+            "spear",
+            "platoon"
+        ],
+
+        "templates":{
+            "itemDescription": "",
+            "stats":{
+                "somatics": {
+                    "modifier": 0,
+                    "abilityScore": 9
+                },
+                "motor": {
+                    "modifier": 0,
+                    "abilityScore": 9
+                },
+                "cognition": {
+                    "modifier": 0,
+                    "abilityScore": 9
+                },
+                "empathy": {
+                    "modifier": 0,
+                    "abilityScore": 9
+                },
+                "hp": {
+                    "min": 0,
+                    "max": "2d6d1 + @somatics.modifier",
+                    "current": "2d6d1 + @somatics.modifier"
+                },
+                "protection": "10 + @motor.modifier"
+            },
+            "characterEquipment":{
+                "weapons": [],
+                "armor": "",
+                "otherEquipment": []
+            },
+
+            "name": null
+        },
+
+        "spectre": {
+            "templates":  ["stats", "characterEquipment"],
+            "luckDifficulty": 13,
+
+            "spectreOrigin": {
+                "culture": "",
+                "profession": "",
+                "spectreHomeland": ""
+            },
+
+            "spectreDetails": {
+                "name": "",
+                "appearance": "",
+                "talisman": ""
+            }
+        },
+        
+        "cataphract": {
+            "construction": {
+                "frame": "",
+                "reactor": "",
+                "coreAge": "",
+                "sensors": ""
+            },
+
+            "cataphractStats": {
+                "protection": 0,
+                "armorDice": "",
+                "sensorBonus": 0,
+                "alienation": 0,
+                "hp": {
+                    "min": 0,
+                    "max": "3d6",
+                    "current": "3d6"
+                }
+            },
+
+            "cataphractEquipment": {
+                "weapon": [],
+                "systems": []
+            },
+
+            "cataphractDetails": {
+                "name": "",
+                "features": "",
+                "origin": "",
+                "camouflage": "",
+                "inWomb": "",
+                "marks": "",
+                "injuries": []
+            }
+        },
+
+        "spear": {
+            "templates": ["name"],
+            "npcs":{
+                "squireAmount": 0,
+                "profAmount": 0
+            },
+            "platoonAmount": 0
+        },
+
+        "platoon": {
+            "templates": ["name", "stats", "characterEquipment"],
+            "platoonType": ""
+        }
+    },
+
+    "Item": {
+        "types": [
+            "system",
+            "spectreArmor",
+            "weapon",
+            "spectreAugmentation"
+        ],
+
+        "templates":{
+            "itemDescription": ""
+        },
+
+        "weapon":{
+            "templates":  ["itemDescription"],
+            "slots": 0,
+            "damage": "",
+            "resourceDice": "",
+            "markers":{
+                "termo": false,
+                "armorPiercing": false,
+                "area": 0,
+                "smart": false,
+                "cascade": false,
+                "boost": false,
+                "heavy": false,
+                "light": false
+            },
+            "range": {
+                "near": false,
+                "midle": false,
+                "long": false
+            }
+        },
+
+        "system": {
+            "templates": ["itemDescription"],
+            "slots": 0,
+            "age": {
+                "common": false,
+                "archeotech": false,
+                "relict": false
+            }
+        },
+
+        "spectreArmor": {
+            "templates": ["itemDescription"],
+            "slots": 0,
+            "protection": 0
+        },
+
+        "spectreAugmentation": {
+            "templates": ["itemDescription"] 
+        }
+    }
+}
