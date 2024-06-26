@@ -17,6 +17,7 @@
 
     ],
     "initative": "@protection",
-    "download": "https://www.dropbox.com/scl/fi/y0uqb3thfajhfmz14qt3q/CavalryFVTT-master.zip?rlkey=yvja2jbqlo6yprsh9gozw8wkd&st=4rsb6605&dl=1",
+    "manifest": "https://raw.githubusercontent.com/HABOJI04b/cavalry-playtest-fvtt/main/system.json",
+    "download": "https://github.com/HABOJI04b/cavalry-playtest-fvtt/archive/refs/heads/main.zip",
     "url": "https://github.com/HABOJI04b/CavalryFVTT" 
 }
