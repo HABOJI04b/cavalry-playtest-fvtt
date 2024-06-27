@@ -2,7 +2,12 @@
     "id": "cavalry-playtest-fvtt",
     "title": "CavalryFVTT",
     "description": "LITTERALY NOT A WH40K!!!1!!11!!",
-    "author": "Hay4",
+    "authors": [
+        {
+            "name": "Hay4",
+            "discord": "nau4" 
+        }
+    ],
     "version": "0.0.2",
     "esmodules": [
         "CavalryFVTT.mjs"
@@ -16,7 +21,6 @@
     "languages": [
 
     ],
-    "initative": "@protection",
     "manifest": "https://raw.githubusercontent.com/HABOJI04b/cavalry-playtest-fvtt/main/system.json",
     "download": "https://github.com/HABOJI04b/cavalry-playtest-fvtt/archive/refs/heads/main.zip",
     "url": "https://github.com/HABOJI04b/CavalryFVTT" 
