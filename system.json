@@ -5,10 +5,10 @@
     "author": "Hay4",
     "version": "0.4.1",
     "esmodules": [
-        "CavalryFVTT.js"
+        "CavalryFVTT.mjs"
     ],
     "styles": [
-        
+
     ],
     "packs": [
 
@@ -17,7 +17,7 @@
 
     ],
     "initative": "@protection",
-    "manifest": "https://raw.githubusercontent.com/HABOJI04b/cavalry-playtest-fvtt/main/system.json?token=GHSAT0AAAAAACUD4F6HX36R7YRA4ZRCGEKQZT4NKPA",
+    "manifest": "https://raw.githubusercontent.com/HABOJI04b/cavalry-playtest-fvtt/main/system.json",
     "download": "https://github.com/HABOJI04b/cavalry-playtest-fvtt/archive/refs/heads/main.zip",
     "url": "https://github.com/HABOJI04b/CavalryFVTT" 
 }
