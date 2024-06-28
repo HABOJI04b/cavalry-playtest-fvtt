@@ -1,7 +1,7 @@
 export class CavalryActorSheet extends ActorSheet {
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
-          classes: ["CavalryFVTT", "sheet", "actor"],
+          classes: ["cavalry-playtest-fvtt", "sheet", "actor"],
           template: "./templates/sheets/actor-sheet.html",
           width: 600,
           height: 600,
