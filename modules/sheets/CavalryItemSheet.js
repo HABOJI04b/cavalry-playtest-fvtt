@@ -1,14 +1,34 @@
 export default class CavalryItemSheet extends ItemSheet {
-    get template() {
-        return `systems/CavalryFVTT/templates/sheets/${this.item.data.type}-sheet.html`;
+    static get defaultOptions() {
+        return foundry.utils.mergeObject(super.defaultOptions, {
+          classes: ['CavalryFVTT', 'sheet', 'item'],
+          width: 520,
+          height: 480,
+          tabs: [
+            {
+              navSelector: '.sheet-tabs',
+              contentSelector: '.sheet-body',
+              initial: 'description',
+            },
+          ],
+        })
     }
+    
 
+    get template() {
+        const path = "./templates/sheets"
+        return `${path}/${this.item.type}-sheet.html`;
+    }
+    
     getData() {
-        const data = super.getData();
-
-        data.config = CONFIG.CavalryFVTT;
-
-        return data;
+        const context = super.getData();
+      
+        const actorData = context.data;
+      
+        context.system = itemData.system;
+        context.flags = itemData.flags;
+      
+        return context;
     }
 }
 
