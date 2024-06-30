@@ -12,19 +12,19 @@ import { CavalryFVTT } from "./modules/config.js";
 Hooks.once("init", function(){
     console.log("Кавалерия 0.4 | Инициализирую систему")
 
-    game.CavalryFVTT = {
+    game.cavalry = {
         CavalryActor,
         CavalryItem
     }
 
     CONFIG.CavalryFVTT = CavalryFVTT;
 
-    CONFIG.Actor.documentClass = BoilerplateActor;
-    CONFIG.Item.documentClass = BoilerplateItem;
+    CONFIG.Actor.documentClass = CavalryActor;
+    CONFIG.Item.documentClass = CavalryItem;
 
     Items.unregisterSheet("core", ActorSheet);
-    Items.registerSheet("CavalryFVTT", CavalryActorSheet, { makeDefault: true });
+    Items.registerSheet("cavalry", CavalryActorSheet, { makeDefault: true });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("CavalryFVTT", CavalryItemSheet, { makeDefault: true });
+    Items.registerSheet("cavalry", CavalryItemSheet, { makeDefault: true });
 });
