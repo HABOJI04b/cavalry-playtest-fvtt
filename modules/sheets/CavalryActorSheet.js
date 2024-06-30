@@ -10,7 +10,7 @@ export class CavalryActorSheet extends ActorSheet {
     }
 
     get template() {
-        return `systems/cavalry-playtest-fvtt/templates/actor/${this.actor.type}-sheet.html`;
+        return `systems/cavalry-playtest-fvtt/templates/actor/$actor-sheet.html`;
     }
     
     getData() {
