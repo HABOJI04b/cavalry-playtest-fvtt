@@ -2,7 +2,7 @@ export class CavalryActorSheet extends ActorSheet {
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
           classes: ["cavalry-playtest-fvtt", "sheet", "actor"],
-          template: "./templates/sheets/actor-sheet.html",
+          template: "systems/cavalry-playtest-fvtt/templates/sheets/actor-sheet.html",
           width: 600,
           height: 600,
           tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
@@ -10,7 +10,7 @@ export class CavalryActorSheet extends ActorSheet {
     }
 
     get template() {
-        return `./templates/actor/actor-${this.actor.type}-sheet.html`;
+        return `systems/cavalry-playtest-fvtt/templates/actor/${this.actor.type}-sheet.html`;
     }
     
     getData() {

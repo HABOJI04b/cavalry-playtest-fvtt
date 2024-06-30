@@ -16,7 +16,7 @@ export default class CavalryItemSheet extends ItemSheet {
     
 
     get template() {
-        const path = "./templates/sheets"
+        const path = "systems/cavalry-playtest-fvtt/templates/sheets"
         return `${path}/${this.item.type}-sheet.html`;
     }
     
