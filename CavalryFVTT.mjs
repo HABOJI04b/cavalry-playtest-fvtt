@@ -23,8 +23,8 @@ Hooks.once("init", function(){
     CONFIG.Item.documentClass = CavalryItem;
 
     Items.unregisterSheet("core", ActorSheet);
-    Items.registerSheet("cavalry", CavalryActorSheet, { types: "character", makeDefault: true });
+    Items.registerSheet("cavalry", CavalryActorSheet, { types: ["spectre"], makeDefault: true });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("cavalry", CavalryItemSheet, { types: "weapon", makeDefault: true });
+    Items.registerSheet("cavalry", CavalryItemSheet, { types: ["system"], makeDefault: true });
 });
