@@ -17,5 +17,8 @@ export class CavalryFVTTActor extends Actor {
         if (actorData !== 'spectre') return;
 
         const systemData = actorData.system;
+        for (let [key, ability] of Object.entries(systemData.abilities)) {
+            ability.mod = Math.floor((ability.value - 10) / 2);
+        }
     } 
 }
