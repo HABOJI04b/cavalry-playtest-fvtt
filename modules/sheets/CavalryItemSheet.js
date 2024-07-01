@@ -2,6 +2,7 @@ export default class CavalryItemSheet extends ItemSheet {
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
           classes: ['cavalry-playtest-fvtt', 'sheet', 'item'],
+          template: "systems/cavalry-playtest-fvtt/templates/sheets/item-sheet.html",
           width: 520,
           height: 480,
           tabs: [
