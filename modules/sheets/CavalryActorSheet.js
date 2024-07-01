@@ -20,6 +20,8 @@ export class CavalryActorSheet extends ActorSheet {
       
         context.system = actorData.system;
         context.flags = actorData.flags;
+
+        context.config = CONFIG.CavalryFVTT;
       
         if (actorData.type == 'spectre') {
           this._prepareCharacterData(context);
