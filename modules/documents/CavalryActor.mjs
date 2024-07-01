@@ -14,7 +14,7 @@ export class CavalryFVTTActor extends Actor {
     }
 
     prepareCharacterData() {
-        if (actorData !== 'character') return;
+        if (actorData !== 'spectre') return;
 
         const systemData = actorData.system;
     } 
