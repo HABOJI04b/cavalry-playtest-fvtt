@@ -8,7 +8,7 @@
             "discord": "nau4" 
         }
     ],
-    "version": "0.4.3.8",
+    "version": "0.4.3.9",
     "esmodules": [
         "CavalryFVTT.mjs"
     ],
