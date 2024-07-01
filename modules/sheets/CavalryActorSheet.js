@@ -21,7 +21,7 @@ export class CavalryActorSheet extends ActorSheet {
         context.system = actorData.system;
         context.flags = actorData.flags;
       
-        if (actorData.type == 'character') {
+        if (actorData.type == 'spectre') {
           this._prepareCharacterData(context);
         }
       
