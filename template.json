@@ -10,21 +10,23 @@
         "templates":{
             "itemDescription": "",
             "stats":{
-                "somatics": {
-                    "modifier": 0,
-                    "abilityScore": 9
-                },
-                "motor": {
-                    "modifier": 0,
-                    "abilityScore": 9
-                },
-                "cognition": {
-                    "modifier": 0,
-                    "abilityScore": 9
-                },
-                "empathy": {
-                    "modifier": 0,
-                    "abilityScore": 9
+                "abilities": {
+                    "somatics": {
+                        "modifier": 0,
+                        "abilityScore": 9
+                    },
+                    "motor": {
+                        "modifier": 0,
+                        "abilityScore": 9
+                    },
+                    "cognition": {
+                        "modifier": 0,
+                        "abilityScore": 9
+                    },
+                    "empathy": {
+                        "modifier": 0,
+                        "abilityScore": 9
+                    }
                 },
                 "hp": {
                     "min": 0,

@@ -1,0 +1,10 @@
+{
+    "CavalryFVTT": {
+        "Abilities": {
+            "Somatics": {"long": "Соматика", "abbr": "СОМ"},
+            "Motor": {"long": "Моторика", "abbr": "МОТ"},
+            "Cognition": {"long": "Когніція", "abbr": "КОН"},
+            "Empathy": {"long": "Емпатія", "abbr": "ЕМП"}
+        }
+    }
+}

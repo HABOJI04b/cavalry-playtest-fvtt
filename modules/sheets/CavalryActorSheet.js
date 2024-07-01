@@ -5,12 +5,7 @@ export class CavalryActorSheet extends ActorSheet {
           template: "systems/cavalry-playtest-fvtt/templates/sheets/actor-sheet.html",
           width: 600,
           height: 600,
-          tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
         });
-    }
-
-    get template() {
-        return `systems/cavalry-playtest-fvtt/templates/sheets/actor-sheet.html`;
     }
     
     getData() {
@@ -28,5 +23,11 @@ export class CavalryActorSheet extends ActorSheet {
         }
       
         return context;
+    }
+
+    _prepareCharacterData(context) {
+      for (let [k, v] of Object.entries(context.system.abilities)){
+        v.label = game.i18n.localize(CONFIG.CavalryFVTT.abilities[k]) ?? k;
+      }
     }
 }

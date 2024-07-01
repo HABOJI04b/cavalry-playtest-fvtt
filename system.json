@@ -8,7 +8,7 @@
             "discord": "nau4" 
         }
     ],
-    "version": "0.4.3.12",
+    "version": "0.4.3.13",
     "esmodules": [
         "CavalryFVTT.mjs"
     ],
@@ -19,7 +19,11 @@
 
     ],
     "languages": [
-
+        {
+            "lang": "ua",
+            "name": "Ukrainian",
+            "path": "lang/ua.json"
+        }
     ],
     "manifest": "https://raw.githubusercontent.com/HABOJI04b/cavalry-playtest-fvtt/main/system.json",
     "download": "https://github.com/HABOJI04b/cavalry-playtest-fvtt/archive/refs/heads/main.zip",

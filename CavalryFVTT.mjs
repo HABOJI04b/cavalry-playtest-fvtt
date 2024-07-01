@@ -23,8 +23,8 @@ Hooks.once("init", function(){
     CONFIG.Item.documentClass = CavalryFVTTItem;
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("cavalry", CavalryActorSheet, { types: ["spectre"], makeDefault: true });
+    Actors.registerSheet("cavalry", CavalryActorSheet, { types: ["spectre"], makeDefault: true, label: 'CavalryFVTT.SheetLabels.Actor' });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("cavalry", CavalryItemSheet, { types: ["system"], makeDefault: true });
+    Items.registerSheet("cavalry", CavalryItemSheet, { types: ["system"], makeDefault: true, label: 'CavalryFVTT.SheetLabels.Item' });
 });
